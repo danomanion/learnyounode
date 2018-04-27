@@ -1,0 +1,19 @@
+{
+  "name": "learnyounode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "program.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danomanion/learnyounode.git"
+  },
+  "author": "Dano Manion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danomanion/learnyounode/issues"
+  },
+  "homepage": "https://github.com/danomanion/learnyounode#readme"
+}
