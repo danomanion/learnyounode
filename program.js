@@ -1,14 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-let directory = process.argv[2];
-let fileExtension = `.${process.argv[3]}`;
-
-fs.readdir(directory, function(err, files) {
-  if (err) return console.error(err);
-  files.forEach(function (file) {
-    if (path.extname(file) === fileExtension) {
-      console.log(file);
-    };
-  });
-});
+// prints list of files in a given directory
+// arg1 = directory name
+// arg2 = extention filter
+// module must export a single function that takes 3 args (directory name, filename extention, and a callback)
